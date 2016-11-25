@@ -22,7 +22,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar{
+.navbar, .home-callout{
     background: #E0EAFC; /* fallback for old browsers */
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#E0EAFC), to(#CFDEF3));
     background: -webkit-linear-gradient(to left, #E0EAFC, #CFDEF3);
@@ -33,4 +33,11 @@ body, .navbar{
 
 .navbar{
     border: none;
+}
+
+.home-callout{
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    color: red;
 }
