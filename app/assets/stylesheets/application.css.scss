@@ -21,7 +21,7 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
-
+//gradient d'arriere plan
 .navbar, .home-callout{
     background: #E0EAFC; /* fallback for old browsers */
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#E0EAFC), to(#CFDEF3));
@@ -35,21 +35,15 @@ h1, h2, h3 {
     border: none;
 }
 
-.navbar-default .navbar-brand{
-    color: white;
-}
+
+//styles typographiques de la navbar
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
     color: white;
-}
-
-.navbar-default .navbar-brand:hover {
-    color:white;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: white;
-    opacity: 0.75;
+    &:hover{
+        color:white;
+        opacity:0.75;
+    }
 }
 
 
